@@ -1,0 +1,32 @@
+{
+  "name": "webrtc-signaling-server",
+  "version": "1.0.0",
+  "description": "WebRTC signaling server using websockets.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamchandak94/webrtc-signaling-server.git"
+  },
+  "keywords": [
+    "webrtc"
+  ],
+  "author": "Shubham Chandak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shubhamchandak94/webrtc-signaling-server/issues"
+  },
+  "homepage": "https://github.com/shubhamchandak94/webrtc-signaling-server/",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^2.0.13",
+    "pug": "^3.0.0",
+    "ws": "^3.3.2"
+  },
+  "engines": {
+    "node": "10.19.0"
+  }
+}
